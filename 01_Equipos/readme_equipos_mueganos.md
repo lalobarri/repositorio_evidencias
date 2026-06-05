@@ -10,27 +10,17 @@ Este archivo tiene como objetivo identificar a los integrantes del equipo, docum
 
 **Nombre del equipo:**
 
-> Escribir aquí el nombre de su equipo.
-
-Ejemplo:
-
-```text
-Code Masters
-```
+Mueganos
 
 ---
 
 # 👥 Integrantes del Equipo
 
-Agregar el nombre completo de todos los integrantes.
-
-| No. | Nombre completo       |
-| --- | --------------------- |
-| 1   | Nombre del integrante |
-| 2   | Nombre del integrante |
-| 3   | Nombre del integrante |
-| 4   | Nombre del integrante |
-| 5   | Nombre del integrante |
+| No. | Nombre completo                 |
+| --- | ------------------------------- |
+| 1   | Carol Guadalupe Rios Rios       |
+| 2   | Juana Jaqueline Camarillo Olaez |
+| 3   | Princes Rocio Guerrero Sánchez  |
 
 ---
 
@@ -38,105 +28,34 @@ Agregar el nombre completo de todos los integrantes.
 
 **Nombre del proyecto:**
 
-> Escribir el nombre oficial del proyecto.
-
-Ejemplo:
-
-```text
-Turismo Inteligente Dolores Hidalgo
-```
+Harmony Gym
 
 ---
 
 # 📖 Descripción del Proyecto
 
-Realizar una breve descripción del proyecto (máximo 10 líneas).
-
-### Ejemplo
-
-> Aplicación web responsiva orientada a promover sitios turísticos, culturales e históricos. El sistema permite consultar información de lugares de interés, visualizar galerías de imágenes, acceder a mapas interactivos y mejorar la experiencia del visitante mediante herramientas digitales.
+Aplicación web para la gestión integral de un gimnasio. Permite el control de membresías, registro de asistencias, seguimiento de progreso de los clientes, agendamiento de clases y administración de pagos. El sistema está diseñado para optimizar la operación diaria del gimnasio Harmony Gym y mejorar la experiencia de sus miembros.
 
 ---
 
 # 🛠️ Tecnologías Utilizadas
 
-Indicar las tecnologías utilizadas durante el desarrollo.
-
-Ejemplo:
-
-* HTML5
-* CSS3
-* JavaScript
-* Bootstrap
-* Git
-* GitHub
+- HTML5
+- CSS3
+- JavaScript
+- Git
+- GitHub
 
 ---
 
 # 🔗 Repositorio del Proyecto
 
-Agregar la URL pública del repositorio.
-
 **Repositorio:**
 
-```text
-https://github.com/usuario/repositorio
-```
-
-
----
-
-
-# ✅ Instrucciones Importantes
-
-1. En la Carpeta 📂**01_Equipos**, crear este archivo con el nombre:
 
 ```text
-README_EQUIPO_UNO.md
+Backend: https://github.com/roygro/HarmonyGym.git
 ```
-
-2. Completar toda la información solicitada.
-
-3. Realizar un commit con un mensaje descriptivo.
-
-Ejemplo:
-
-```bash
-git add README_EQUIPO_UNO.md
-git commit -m "Agrega información del equipo"
-```
-
-4. Crear una rama con el formato:
-
 ```text
-readme_[nombre_equipo]
+Frontend: https://github.com/roygro/HarmonyGymFront.git
 ```
-
-Ejemplo:
-
-```text
-readme_code_masters
-```
-
-5. Subir la rama al repositorio remoto:
-
-```bash
-git push origin readme_code_masters
-```
-
-6. Crear un Pull Request desde GitHub para integrar el archivo al repositorio principal.
-
----
-
-# 🎯 Resultado Esperado
-
-Al finalizar esta actividad, cada equipo habrá:
-
-✅ Documentado correctamente su proyecto.
-✅ Identificado a los integrantes del equipo.
-✅ Compartido el enlace de su repositorio.
-✅ Practicado el flujo profesional de Git y GitHub mediante Pull Requests.
-
----
-
-### 🚀 ¡Mucho éxito en el desarrollo de su proyecto!

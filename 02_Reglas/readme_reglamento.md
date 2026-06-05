@@ -12,15 +12,15 @@ Establecer las normas, responsabilidades y procedimientos que seguirá el equipo
 
 **Nombre del equipo:**
 
-> Escribir nombre del equipo
+Los Mueganos
 
 **Repositorio del proyecto:**
 
-> Agregar URL del repositorio
+https://github.com/lalobarri/repositorio_evidencias.git
 
 **Líder del proyecto:**
 
-> Nombre del responsable de coordinar actividades
+Carol Guadalupe Rios Rios
 
 ---
 
@@ -47,20 +47,12 @@ Para evitar conflictos, cada integrante trabajará en una rama independiente.
 main
 ```
 
-Contendrá únicamente versiones estables y aprobadas del proyecto.
-
----
-
 ## Ramas de trabajo
-
 Cada integrante deberá crear una rama con el siguiente formato:
 
-```text
 feature_nombre_modulo
-```
 
-### Ejemplos
-
+## Ejemplos
 ```text
 feature_login
 feature_inicio
@@ -69,44 +61,33 @@ feature_contacto
 feature_api_clima
 ```
 
----
-
-# 🔄 Flujo de Trabajo Obligatorio
-
+## Flujo de Trabajo
 ## Paso 1. Actualizar repositorio local
-
 Antes de comenzar cualquier actividad:
-
 ```bash
 git checkout main
 git pull origin main
 ```
 
----
-
 ## Paso 2. Crear o actualizar rama de trabajo
 
-```bash
+
+```bash 
 git checkout -b feature_nombre_modulo
 ```
-
-o
 
 ```bash
 git checkout feature_nombre_modulo
 git pull origin main
 ```
-
 ---
 
 ## Paso 3. Realizar cambios
-
 Desarrollar únicamente las funcionalidades asignadas.
 
 ---
 
-## Paso 4. Registrar cambios
-
+Paso 4. Registrar cambios
 ```bash
 git add .
 git commit -m "Implementa módulo de contacto"
@@ -115,43 +96,39 @@ git commit -m "Implementa módulo de contacto"
 ---
 
 ## Paso 5. Subir cambios al repositorio remoto
-
 ```bash
 git push origin feature_nombre_modulo
 ```
 
 ---
 
-## Paso 6. Crear Pull Request (PR)
 
+## Paso 6. Crear Pull Request (PR)
 Cada integrante deberá crear un Pull Request hacia la rama:
+
 
 ```text
 main
 ```
 
----
 
-# ✅ Reglas para los Pull Request
-
+## Reglas para los Pull Request
 Todo Pull Request deberá incluir:
 
 ## Título
-
 ```text
 [MÓDULO] Descripción breve del cambio
 ```
 
-### Ejemplo
+
+## Ejemplo
 
 ```text
 [CONTACTO] Implementación del formulario de contacto
 ```
 
----
 
 ## Descripción mínima
-
 ```markdown
 ### Descripción
 Explicación breve del cambio realizado.
@@ -166,74 +143,71 @@ Adjuntar captura de pantalla.
 
 ### Pruebas realizadas
 Describir pruebas ejecutadas.
-```
+---
+
 
 ---
 
-# 👀 Revisión de Código
 
+# Revisión de Código
 Antes de aprobar un Pull Request se deberá verificar:
 
 * El proyecto sigue funcionando correctamente.
+
 * No existen errores visibles.
+
 * El código está ordenado y documentado.
+
 * No se eliminaron archivos importantes.
+
 * Se respetó la estructura del proyecto.
 
 ---
 
-# 🚫 Acciones No Permitidas
+# Acciones No Permitidas
 
 Queda prohibido:
 
 * Trabajar directamente sobre la rama main.
+
 * Eliminar archivos de otros integrantes sin autorización.
+
 * Realizar commits sin descripción.
+
 * Subir código sin probar.
+
 * Aprobar su propio Pull Request.
+
 * Fusionar cambios sin revisión previa.
 
----
-
-# 📈 Seguimiento de Avances
-
+# Seguimiento de Avances
 Cada integrante deberá registrar semanalmente sus actividades.
 
 ## Bitácora de actividades
+|Fecha	| Integrante	| Actividad realizada | Commit o PR |
 
-| Fecha      | Integrante | Actividad realizada | Commit o PR |
-| ---------- | ---------- | ------------------- | ----------- |
-| DD/MM/AAAA | Nombre     | Descripción         | #PR o Hash  |
+| 04/06/2026 |	Carol Guadalupe Rios Rios |	Elaboración del reglamento de trabajo |	PR #2 |
+| 04/06/2026	| Juana Jaqueline Camarillo Olaez |	Configuración inicial del proyecto| 	Pendiente |
+| 04/06/2026 |	Princes Rocio Guerrero Sánchez	| Documentación del equipo |	Pendiente | 
 
-### Ejemplo
 
-| Fecha      | Integrante | Actividad realizada                  | Commit o PR |
-| ---------- | ---------- | ------------------------------------ | ----------- |
-| 15/09/2026 | Juan Pérez | Desarrollo de formulario de contacto | PR #4       |
-
----
-
-# 🔍 Auditoría y Evidencia de Participación
-
+##  Auditoría y Evidencia de Participación
 El equipo deberá demostrar la participación de todos los integrantes mediante:
 
-## Evidencia 1. Historial de Commits
-
+# Evidencia 1. Historial de Commits
 Revisar:
 
-```bash
+``` bash
 git log --oneline
 ```
 
----
-
 ## Evidencia 2. Commits por Autor
-
 Revisar:
 
 ```bash
 git shortlog -sn
-```
+``` 
+-----
 
 Ejemplo:
 
@@ -241,12 +215,9 @@ Ejemplo:
 15 Juan Pérez
 12 María López
 10 Carlos García
-```
-
----
+``` 
 
 ## Evidencia 3. Pull Requests Realizados
-
 Cada integrante deberá generar al menos:
 
 * 2 Pull Requests durante el desarrollo.
@@ -254,8 +225,8 @@ Cada integrante deberá generar al menos:
 ---
 
 ## Evidencia 4. Contribuciones en GitHub
-
 Verificar en:
+
 
 ```text
 Insights → Contributors
@@ -265,21 +236,21 @@ Se deberá observar actividad de todos los integrantes.
 
 ---
 
-## Evidencia 5. Historial de Cambios
 
+
+## Evidencia 5. Historial de Cambios
 Verificar:
 
-```text
+``` text
 Pull Requests
 Commits
 Issues
 Projects
-```
+``` 
+----
 
----
 
-# 📊 Criterios de Evaluación del Trabajo Colaborativo
-
+#  Criterios de Evaluación del Trabajo Colaborativo
 | Criterio                         | Valor |
 | -------------------------------- | ----- |
 | Uso correcto de ramas            | 20%   |
@@ -291,24 +262,24 @@ Projects
 
 ---
 
-# 🏆 Meta del Equipo
-
+# Meta del Equipo
 Lograr una colaboración organizada y profesional aplicando buenas prácticas de desarrollo de software utilizadas en proyectos reales de la industria.
 
----
+----
 
-## 🚀 Declaración de Compromiso
-
+## Declaración de Compromiso
 Todos los integrantes del equipo aceptan cumplir este reglamento y seguir las buenas prácticas de desarrollo colaborativo establecidas para el proyecto.
 
-**Fecha de elaboración:** ____ / ____ / ______
+**Fecha de elaboración:** 04 / 06 / 2026
 
 **Integrantes:**
 
-* ---
-* ---
-* ---
-* ---
-* ---
+* Carol Guadalupe Rios Rios
+
+* Juana Jaqueline Camarillo Olaez
+
+* Princes Rocio Guerrero Sánchez
 
 ✍️ Firma de aceptación del equipo.
+
+

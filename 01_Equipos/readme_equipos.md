@@ -53,5 +53,8 @@ Aplicación web para la gestión integral de un gimnasio. Permite el control de 
 **Repositorio:**
 
 ```text
-https://github.com/lalobarri/repositorio_evidencias.git
+https://github.com/roygro/HarmonyGym.git
+```
+```text
+https://github.com/roygro/HarmonyGymFront.git
 ```

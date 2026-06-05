@@ -183,6 +183,8 @@ Queda prohibido:
 # Seguimiento de Avances
 Cada integrante deberá registrar semanalmente sus actividades.
 
+----
+
 ## Bitácora de actividades
 |Fecha	| Integrante	| Actividad realizada | Commit o PR |
 
@@ -281,5 +283,6 @@ Todos los integrantes del equipo aceptan cumplir este reglamento y seguir las bu
 * Princes Rocio Guerrero Sánchez
 
 ✍️ Firma de aceptación del equipo.
+
 
 
